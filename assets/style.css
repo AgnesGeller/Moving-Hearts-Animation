@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(img2.jpg);
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: rgb(247, 129, 70);
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(236, 206, 150);
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+span {
+    background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-256.png");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    pointer-events: none;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: animate 6s linear;
+}
+    @keyframes animate {
+    0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    filter: hue-rotate(0);
+    }
+  100%  {
+    transform: translate(-50%, -5000%);
+    opacity: 0;
+    filter: hue-rotate(720deg);
+  }
+    }
+     
