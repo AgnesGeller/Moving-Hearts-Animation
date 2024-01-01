@@ -18,6 +18,20 @@ h2 {
     font-family: Snell Roundhand, cursive;
     font-weight: bold;
 }
+
+h3 {
+    color: rgb(231, 228, 221);
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+
+p {
+    color: rgb(234, 104, 17);
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
 span {
     background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-256.png");
     width: 100px;
